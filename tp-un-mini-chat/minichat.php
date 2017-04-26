@@ -27,7 +27,7 @@
         // En cas d'erreur, on affiche un message et on arrête tout
         die('Erreur : '.$e->getMessage());
     }
-	// On récupère tout le contenu de la table jeux_video
+	// On récupère tout le contenu de la table minichat
     $reponse = $bdd->query('SELECT * FROM minichat ORDER BY id DESC LIMIT 0, 10');
 	// On affiche chaque entrée une à une
 	while ($donnees = $reponse->fetch()) {
