@@ -3,7 +3,11 @@
     <head>
         <title>Blog avec des commentaires</title>
         <meta charset="UTF-8">
-        <link href="style.css" rel="stylesheet">
+        <style>
+            form {
+                text-align: center;
+            }
+        </style>
     </head>
     <body>
         <h1>Mon super blog !</h1>
